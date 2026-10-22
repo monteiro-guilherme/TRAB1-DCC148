@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c8pqone2gd2t"]
+
+[ext_resource type="Texture2D" uid="uid://ww8lo1r6xl6y" path="res://Assets/Background/background.png" id="1_l3thc"]
+
+[node name="Background" type="Node2D" unique_id=1784099407]
+z_index = -1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1745761268]
+scale = Vector2(4, 4)
+texture = ExtResource("1_l3thc")
+centered = false

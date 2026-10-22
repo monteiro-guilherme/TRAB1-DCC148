@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cadcq4n7cjqrb"]
+
+[ext_resource type="PackedScene" uid="uid://bn3q6x7clnsha" path="res://Bancho.tscn" id="1_2gpuw"]
+
+[node name="Enemies" type="Node2D" unique_id=1199216229]
+
+[node name="Bancho" parent="." unique_id=1054361280 instance=ExtResource("1_2gpuw")]
+
+[node name="AnimatedSprite2D" parent="Bancho" index="0" unique_id=166744842]
+animation = &"Hurt1"
+
+[node name="FrontKick" parent="Bancho/HitBox" parent_id_path=PackedInt32Array(1054361280, 449687983) index="0" unique_id=150286854]
+position = Vector2(-8, 10)
+
+[node name="HurtBox" parent="Bancho" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[editable path="Bancho"]

@@ -1,0 +1,195 @@
+[gd_scene format=3 uid="uid://cyvqxhy3dcyip"]
+
+[ext_resource type="PackedScene" uid="uid://cadcq4n7cjqrb" path="res://Enemies.tscn" id="1_hf4of"]
+[ext_resource type="PackedScene" uid="uid://c8pqone2gd2t" path="res://Background.tscn" id="1_swweo"]
+[ext_resource type="PackedScene" uid="uid://bn3q6x7clnsha" path="res://Bancho.tscn" id="2_6p5hn"]
+[ext_resource type="PackedScene" uid="uid://bh15anbobwau7" path="res://Brute.tscn" id="3_chyrs"]
+[ext_resource type="PackedScene" uid="uid://cm7jcd7rwbeg8" path="res://Player.tscn" id="3_ufcyk"]
+[ext_resource type="Texture2D" uid="uid://bwm0u6184dde" path="res://Assets/Object/PHONE.png" id="4_swweo"]
+[ext_resource type="Texture2D" uid="uid://ccesushiyluw7" path="res://Assets/Object/fachada1.png" id="5_hf4of"]
+[ext_resource type="Texture2D" uid="uid://bwtbudtecpqe6" path="res://Assets/Object/fachada2.png" id="6_ufcyk"]
+[ext_resource type="Texture2D" uid="uid://cnwtj28uejapn" path="res://Assets/Object/lixeiraAberta.png" id="7_3t4c6"]
+[ext_resource type="Texture2D" uid="uid://dq0iuf1imygp1" path="res://Assets/Object/lixeiraFechada.png" id="8_wk3qc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eq8l8"]
+size = Vector2(20, 764)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_llo6n"]
+size = Vector2(20, 764)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5a0ov"]
+size = Vector2(3136, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wbexj"]
+size = Vector2(3136, 20)
+
+[node name="Fase01" type="Node2D" unique_id=1838594019]
+y_sort_enabled = true
+
+[node name="Enemies" parent="." unique_id=1199216229 instance=ExtResource("1_hf4of")]
+y_sort_enabled = true
+
+[node name="Bancho" parent="Enemies" index="0" unique_id=1054361280]
+position = Vector2(1500, 500)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="FrontKick" parent="Enemies/Bancho/HitBox" parent_id_path=PackedInt32Array(1199216229, 1054361280, 449687983) index="2" unique_id=1712459571]
+position = Vector2(0, 0)
+
+[node name="Bancho6" parent="Enemies" unique_id=1120410307 instance=ExtResource("2_6p5hn")]
+position = Vector2(1600, 600)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho6" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Bancho6" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[node name="Bancho5" parent="Enemies" unique_id=621277741 instance=ExtResource("2_6p5hn")]
+position = Vector2(1400, 600)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho5" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Bancho5" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[node name="Bancho4" parent="Enemies" unique_id=1933376814 instance=ExtResource("2_6p5hn")]
+position = Vector2(950, 440)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho4" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Bancho4" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[node name="Bancho3" parent="Enemies" unique_id=711518695 instance=ExtResource("2_6p5hn")]
+position = Vector2(2100, 600)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho3" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Bancho3" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[node name="Bancho2" parent="Enemies" unique_id=348687363 instance=ExtResource("2_6p5hn")]
+position = Vector2(2200, 650)
+scale = Vector2(1.8, 1.8)
+
+[node name="AnimatedSprite2D" parent="Enemies/Bancho2" index="0" unique_id=166744842]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Bancho2" index="3" unique_id=1637847250 groups=["enemy_hurtbox"]]
+
+[node name="Brute" parent="Enemies" unique_id=1140388540 instance=ExtResource("3_chyrs")]
+position = Vector2(3000, 500)
+
+[node name="AnimatedSprite2D" parent="Enemies/Brute" index="0" unique_id=1981046913]
+animation = &"Idle"
+
+[node name="HurtBox" parent="Enemies/Brute" index="3" unique_id=218127969 groups=["enemy_hurtbox"]]
+
+[node name="Background" parent="." unique_id=137422929 instance=ExtResource("1_swweo")]
+
+[node name="Player" parent="." unique_id=509321626 instance=ExtResource("3_ufcyk")]
+position = Vector2(90, 530)
+motion_mode = 1
+
+[node name="MapLimits" type="Node2D" parent="." unique_id=30577815]
+
+[node name="Walls" type="StaticBody2D" parent="MapLimits" unique_id=167024636]
+visible = false
+
+[node name="LeftWall" type="CollisionShape2D" parent="MapLimits/Walls" unique_id=2132493542]
+position = Vector2(0, 382)
+shape = SubResource("RectangleShape2D_eq8l8")
+
+[node name="RighWall" type="CollisionShape2D" parent="MapLimits/Walls" unique_id=510696194]
+position = Vector2(3136, 382)
+shape = SubResource("RectangleShape2D_llo6n")
+
+[node name="TopWall" type="CollisionShape2D" parent="MapLimits/Walls" unique_id=322761196]
+position = Vector2(1568, 0)
+shape = SubResource("RectangleShape2D_5a0ov")
+
+[node name="BottomWall" type="CollisionShape2D" parent="MapLimits/Walls" unique_id=373663508]
+position = Vector2(1568, 764)
+shape = SubResource("RectangleShape2D_wbexj")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MapLimits" unique_id=303889045]
+visible = false
+
+[node name="Alley1" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=1923143160]
+polygon = PackedVector2Array(251, 507, 160, 507, 95, 445, 62, 410, 0, 410, 0, 250, 156, 253, 251, 325)
+
+[node name="Wall1" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=1760562446]
+polygon = PackedVector2Array(251, 507, 830, 506, 748, 378, 251, 376)
+
+[node name="Alley2" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=1628517477]
+polygon = PackedVector2Array(748, 378, 1023, 377, 1023, 407, 1054, 442, 1152, 442, 1214, 510, 1214, 353)
+
+[node name="Wall2" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=815777706]
+polygon = PackedVector2Array(1214, 510, 2363, 508, 2285, 380, 1213, 353)
+
+[node name="Wall3" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=1178276124]
+polygon = PackedVector2Array(2285, 380, 2694, 384, 2748, 437, 2875, 436, 2817, 382, 2884.444, 382.4778, 2940, 437, 3067, 437, 3019, 383, 3128, 384, 3126, 323, 2293, 323)
+
+[node name="Phone" type="CollisionPolygon2D" parent="MapLimits/StaticBody2D" unique_id=1900654033]
+polygon = PackedVector2Array(924, 635, 893, 599, 993, 598, 1023, 635)
+
+[node name="Object" type="Node2D" parent="." unique_id=71951341]
+y_sort_enabled = true
+
+[node name="Phone" type="Node2D" parent="Object" unique_id=797467217]
+position = Vector2(974, 537)
+
+[node name="Sprite2D" type="Sprite2D" parent="Object/Phone" unique_id=1495857633]
+position = Vector2(-14, 3)
+scale = Vector2(4, 4)
+texture = ExtResource("4_swweo")
+
+[node name="Fachada1" type="Node2D" parent="Object" unique_id=1885488374]
+position = Vector2(800, 406)
+
+[node name="Sprite2D" type="Sprite2D" parent="Object/Fachada1" unique_id=1530540795]
+position = Vector2(-63.999977, -41)
+scale = Vector2(0.95500004, 0.93934417)
+texture = ExtResource("5_hf4of")
+
+[node name="Fachada2" type="Node2D" parent="Object" unique_id=1167254568]
+position = Vector2(2337, 405)
+
+[node name="Sprite2D" type="Sprite2D" parent="Object/Fachada2" unique_id=203108800]
+position = Vector2(-114.50002, -60)
+scale = Vector2(0.95666677, 0.9637681)
+texture = ExtResource("6_ufcyk")
+
+[node name="Lixeira1" type="Node2D" parent="Object" unique_id=1313363771]
+position = Vector2(2778, 319)
+
+[node name="Sprite2D" type="Sprite2D" parent="Object/Lixeira1" unique_id=1790944524]
+position = Vector2(7, -6)
+scale = Vector2(4, 4)
+texture = ExtResource("7_3t4c6")
+
+[node name="Lixeira2" type="Node2D" parent="Object" unique_id=1780957032]
+position = Vector2(2987, 323)
+
+[node name="Sprite2D" type="Sprite2D" parent="Object/Lixeira2" unique_id=1932627661]
+position = Vector2(-10, 43)
+scale = Vector2(4, 4)
+texture = ExtResource("8_wk3qc")
+
+[editable path="Enemies"]
+[editable path="Enemies/Bancho"]
+[editable path="Enemies/Bancho6"]
+[editable path="Enemies/Bancho5"]
+[editable path="Enemies/Bancho4"]
+[editable path="Enemies/Bancho3"]
+[editable path="Enemies/Bancho2"]
+[editable path="Enemies/Brute"]
+[editable path="Background"]
+[editable path="Player"]

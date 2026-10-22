@@ -1,0 +1,14 @@
+# Cache gerado pela Godot 4
+.godot/
+
+# Arquivos temporarios
+*.tmp
+*.bak
+
+# Builds geradas
+/builds/
+/dist/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

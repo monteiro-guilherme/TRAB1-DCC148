@@ -1,0 +1,326 @@
+[gd_scene format=3 uid="uid://bn3q6x7clnsha"]
+
+[ext_resource type="Texture2D" uid="uid://blsobu85hb8pp" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack1.png" id="1_kjliw"]
+[ext_resource type="Script" uid="uid://b5ivlr11h1psj" path="res://bancho.gd" id="1_p5s1t"]
+[ext_resource type="Texture2D" uid="uid://mldf7pjgndjx" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack2.png" id="2_p5s1t"]
+[ext_resource type="Texture2D" uid="uid://5glfatrj5cpq" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack3.png" id="3_f436l"]
+[ext_resource type="Texture2D" uid="uid://difnnm0po2weu" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack4.png" id="4_v7en1"]
+[ext_resource type="Texture2D" uid="uid://1ki617vmkmen" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack5.png" id="5_5ac8y"]
+[ext_resource type="Texture2D" uid="uid://b0xhho6fswcl1" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack6.png" id="6_46ot1"]
+[ext_resource type="Texture2D" uid="uid://dreuuu5r1c7eu" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack7.png" id="7_v1qes"]
+[ext_resource type="Texture2D" uid="uid://cvrrky81gkw26" path="res://Assets/Enemies/Bancho/ATK/Atk1/Bancho_attack8.png" id="8_a2rkt"]
+[ext_resource type="Texture2D" uid="uid://bvovuc45qnje3" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack9.png" id="9_2i2qq"]
+[ext_resource type="Texture2D" uid="uid://0oaxbms6jr6f" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack10.png" id="10_pgueh"]
+[ext_resource type="Texture2D" uid="uid://creha2exjtdlj" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack11.png" id="11_x0o62"]
+[ext_resource type="Texture2D" uid="uid://bkl5u13jn2073" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack12.png" id="12_kwcpw"]
+[ext_resource type="Texture2D" uid="uid://ce54p3f5xe8hh" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack13.png" id="13_ssbis"]
+[ext_resource type="Texture2D" uid="uid://bl1q5k1pud4cl" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack14.png" id="14_wsrwg"]
+[ext_resource type="Texture2D" uid="uid://2mp2pxsnvuj1" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack15.png" id="15_e71yy"]
+[ext_resource type="Texture2D" uid="uid://jnkc0gs1yy3w" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack16.png" id="16_gp8pd"]
+[ext_resource type="Texture2D" uid="uid://d1ynu85ooe23f" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack17.png" id="17_ykhw1"]
+[ext_resource type="Texture2D" uid="uid://q37ufn3lgo8p" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack18.png" id="18_6osay"]
+[ext_resource type="Texture2D" uid="uid://brublqnmhafpv" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack19.png" id="19_k3m5i"]
+[ext_resource type="Texture2D" uid="uid://bt1x0544va8e0" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack20.png" id="20_l6qcy"]
+[ext_resource type="Texture2D" uid="uid://b8vfh3y3ua3ua" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack21.png" id="21_tnx5h"]
+[ext_resource type="Texture2D" uid="uid://t6pgfo2qvvea" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack22.png" id="22_ajdmy"]
+[ext_resource type="Texture2D" uid="uid://txhb8sn1dk6k" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack23.png" id="23_qwgys"]
+[ext_resource type="Texture2D" uid="uid://b1803p6mguv1f" path="res://Assets/Enemies/Bancho/ATK/Atk2/Bancho_attack24.png" id="24_sxl2l"]
+[ext_resource type="Texture2D" uid="uid://d0r4vy7nx0byl" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack25.png" id="25_bhjm5"]
+[ext_resource type="Texture2D" uid="uid://dvkiyul2bjlmx" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack26.png" id="26_vwt6e"]
+[ext_resource type="Texture2D" uid="uid://ce8v2e2crnusv" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack27.png" id="27_vi60u"]
+[ext_resource type="Texture2D" uid="uid://c3tfr2tkygbpv" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack28.png" id="28_c36tl"]
+[ext_resource type="Texture2D" uid="uid://y05m6ekln7d8" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack29.png" id="29_awtbr"]
+[ext_resource type="Texture2D" uid="uid://qbqttrxdxjb2" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack30.png" id="30_5dw4p"]
+[ext_resource type="Texture2D" uid="uid://20b0lpsx2iqr" path="res://Assets/Enemies/Bancho/ATK/Atk3 (super)/Bancho_attack31.png" id="31_fb1wo"]
+[ext_resource type="Texture2D" uid="uid://bf7axero3u2sp" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages1.png" id="32_ptxrl"]
+[ext_resource type="Texture2D" uid="uid://0l7gi4eacxld" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages2.png" id="33_rl54q"]
+[ext_resource type="Texture2D" uid="uid://cukvxada7j1o5" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages3.png" id="34_lqees"]
+[ext_resource type="Texture2D" uid="uid://bxateokbehodq" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages4.png" id="35_a2lga"]
+[ext_resource type="Texture2D" uid="uid://d1ofbricn7glx" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages5.png" id="36_redad"]
+[ext_resource type="Texture2D" uid="uid://h0js4k88i5rs" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages6.png" id="37_mugeo"]
+[ext_resource type="Texture2D" uid="uid://ce8piqnbmf7rt" path="res://Assets/Enemies/Bancho/Hurt/Bancho_Damages7.png" id="38_5xcoi"]
+[ext_resource type="Texture2D" uid="uid://djkg7b8m55bi" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle1.png" id="39_g26y0"]
+[ext_resource type="Texture2D" uid="uid://dxjcrmjb5j11u" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle2.png" id="40_l6ybd"]
+[ext_resource type="Texture2D" uid="uid://bnc5jpuyqpb65" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle3.png" id="41_aaqod"]
+[ext_resource type="Texture2D" uid="uid://dvuxta7gasevp" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle4.png" id="42_atre8"]
+[ext_resource type="Texture2D" uid="uid://bttodiopew2cc" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle5.png" id="43_762p2"]
+[ext_resource type="Texture2D" uid="uid://c4ipnylwujh23" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle6.png" id="44_uvrs2"]
+[ext_resource type="Texture2D" uid="uid://4ite1ej0rtwb" path="res://Assets/Enemies/Bancho/Idle/Bancho_Idle7.png" id="45_wf82t"]
+[ext_resource type="Texture2D" uid="uid://bgo44b7vbymbv" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk1.png" id="46_tnod7"]
+[ext_resource type="Texture2D" uid="uid://dwhn5lostq4lx" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk2.png" id="47_vv88d"]
+[ext_resource type="Texture2D" uid="uid://drt4iiwu18fv6" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk3.png" id="48_2ll55"]
+[ext_resource type="Texture2D" uid="uid://duv3o8ovxmqqf" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk4.png" id="49_y13cu"]
+[ext_resource type="Texture2D" uid="uid://dldinxlrvkdsp" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk5.png" id="50_opavp"]
+[ext_resource type="Texture2D" uid="uid://cg2ek5kedpudx" path="res://Assets/Enemies/Bancho/Walk/Bancho_walk6.png" id="51_88ji5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eq8l8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kjliw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p5s1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f436l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_v7en1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5ac8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_46ot1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v1qes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_a2rkt")
+}],
+"loop": 0,
+"name": &"Atk1(kick)",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_2i2qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_pgueh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_x0o62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kwcpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ssbis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_wsrwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_e71yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gp8pd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ykhw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_6osay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_k3m5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_l6qcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_tnx5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ajdmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_qwgys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_sxl2l")
+}],
+"loop": 0,
+"name": &"Atk2(double_kick)",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_bhjm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vwt6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_vi60u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_c36tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_awtbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_5dw4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_fb1wo")
+}],
+"loop": 0,
+"name": &"Atk3(super)",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_rl54q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ptxrl")
+}],
+"loop": 0,
+"name": &"Hurt1",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_ptxrl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_rl54q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_lqees")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_a2lga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_redad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_mugeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_5xcoi")
+}],
+"loop": 0,
+"name": &"Hurt2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_rl54q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_lqees")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_a2lga")
+}, {
+"duration": 5.0,
+"texture": ExtResource("36_redad")
+}],
+"loop": 0,
+"name": &"Hurt3(knockdown)",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39_g26y0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_l6ybd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_aaqod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_atre8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_762p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_uvrs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_wf82t")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_mugeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_5xcoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ptxrl")
+}],
+"loop": 0,
+"name": &"WakeUp",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("46_tnod7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_vv88d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2ll55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_y13cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_opavp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_88ji5")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eq8l8"]
+size = Vector2(15, 10)
+
+[node name="Bancho" type="CharacterBody2D" unique_id=1054361280]
+motion_mode = 1
+script = ExtResource("1_p5s1t")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=166744842]
+sprite_frames = SubResource("SpriteFrames_eq8l8")
+animation = &"new_animation"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2051798543]
+visible = false
+position = Vector2(0, 39)
+shape = SubResource("RectangleShape2D_eq8l8")
+
+[node name="HitBox" type="Area2D" parent="." unique_id=449687983]
+visible = false
+collision_layer = 0
+collision_mask = 8
+
+[node name="CurbStomp" type="CollisionPolygon2D" parent="HitBox" unique_id=534229553]
+visible = false
+polygon = PackedVector2Array(22, 28, 23, 49, 9, 49, 5, 33, -6, 28, -7, 20, 15, 20, 19, 23)
+
+[node name="Super" type="CollisionPolygon2D" parent="HitBox" unique_id=7303295]
+polygon = PackedVector2Array(47, -12, 48, 0, 46, 13, 44, 26, 34, 37, 24, 42, 13, 45, -1, 45, -14, 43, -7, 32, 24, 17, 34, -4, 38, -6, 40, -11)
+
+[node name="FrontKick" type="CollisionPolygon2D" parent="HitBox" unique_id=1712459571]
+polygon = PackedVector2Array(47, 3, 47, 16, 0, 23, 0, 4)
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=1637847250]
+collision_layer = 8
+collision_mask = 0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="HurtBox" unique_id=1991728577]
+visible = false
+polygon = PackedVector2Array(15, -29, 11, -16, 5, -7, 4, 10, 12, 27, 13, 47, -30, 46, -30, -28)

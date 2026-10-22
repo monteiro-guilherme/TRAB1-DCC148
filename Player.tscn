@@ -1,0 +1,362 @@
+[gd_scene format=3 uid="uid://cm7jcd7rwbeg8"]
+
+[ext_resource type="Script" uid="uid://3gdqkeantomy" path="res://player.gd" id="1_kpjcp"]
+[ext_resource type="Texture2D" uid="uid://c7hoii23qigqy" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack07.png" id="2_1jgrc"]
+[ext_resource type="Texture2D" uid="uid://csyaapf6lejm8" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle1.png" id="2_jatw7"]
+[ext_resource type="Texture2D" uid="uid://dfwfog5l5k7eq" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack01.png" id="3_7wy67"]
+[ext_resource type="Texture2D" uid="uid://emus3pb7pqgc" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle2.png" id="3_rv870"]
+[ext_resource type="Texture2D" uid="uid://qr7mg7f8qx35" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle3.png" id="4_efikj"]
+[ext_resource type="Texture2D" uid="uid://bqyst5xj6va1l" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack02.png" id="4_q26ax"]
+[ext_resource type="Texture2D" uid="uid://cn26gugv5dd8a" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle4.png" id="5_itxgx"]
+[ext_resource type="Texture2D" uid="uid://ckmboaabiu308" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack03.png" id="5_p01ps"]
+[ext_resource type="Texture2D" uid="uid://db7cnx50o08uk" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle5.png" id="6_cgsek"]
+[ext_resource type="Texture2D" uid="uid://bcy1nad6let3" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack04.png" id="6_m7dl7"]
+[ext_resource type="Texture2D" uid="uid://rbgwjcnikkyg" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle6.png" id="7_0pi4m"]
+[ext_resource type="Texture2D" uid="uid://b1o1ojs3gv6gn" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack05.png" id="7_48og4"]
+[ext_resource type="Texture2D" uid="uid://xoa655ex4102" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle7.png" id="8_sg6sq"]
+[ext_resource type="Texture2D" uid="uid://b2v5l5ppodnl1" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack06.png" id="8_xmpta"]
+[ext_resource type="Texture2D" uid="uid://c5hlx1j105xsb" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle8.png" id="9_h84ma"]
+[ext_resource type="Texture2D" uid="uid://bukx4f6ax0h4w" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack08.png" id="9_mrbh7"]
+[ext_resource type="Texture2D" uid="uid://bh50877j6cr05" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle9.png" id="10_47wu6"]
+[ext_resource type="Texture2D" uid="uid://yqk1baea1hon" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack09.png" id="10_ffn1m"]
+[ext_resource type="Texture2D" uid="uid://bpuipidc8wttn" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle10.png" id="11_2n1s8"]
+[ext_resource type="Texture2D" uid="uid://c4ojr7sysxd3x" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack10.png" id="11_mft6i"]
+[ext_resource type="Texture2D" uid="uid://ep2lgymlvs2w" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle11.png" id="12_3vjad"]
+[ext_resource type="Texture2D" uid="uid://dn8j2cc266hdk" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack11.png" id="12_ctv73"]
+[ext_resource type="Texture2D" uid="uid://7grgwxwsrbdh" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack12.png" id="13_1ofp1"]
+[ext_resource type="Texture2D" uid="uid://bsqsqd4jvy232" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle12.png" id="13_yt0h1"]
+[ext_resource type="Texture2D" uid="uid://b1s0mju72g4g" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle13.png" id="14_vd78s"]
+[ext_resource type="Texture2D" uid="uid://5kqxc70gy3rx" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack13.png" id="14_vh7e4"]
+[ext_resource type="Texture2D" uid="uid://dosop6uuqlp8p" path="res://Assets/Player/Sprite Individual/ATK/Atk2/BattingGirl_attack14.png" id="15_dbi5o"]
+[ext_resource type="Texture2D" uid="uid://d2yyxuhstgqei" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle14.png" id="15_ictha"]
+[ext_resource type="Texture2D" uid="uid://bvd6liqil023d" path="res://Assets/Player/Sprite Individual/Idle/BattingGirl_Idle15.png" id="16_1jgrc"]
+[ext_resource type="Texture2D" uid="uid://ixlv7bhqgskk" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack15.png" id="16_ud5ta"]
+[ext_resource type="Texture2D" uid="uid://dhn0rnvmgc38s" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack16.png" id="17_abyjm"]
+[ext_resource type="Texture2D" uid="uid://dqeej2byccfmf" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk1.png" id="17_sg6sq"]
+[ext_resource type="Texture2D" uid="uid://bfw7cbr51qnbp" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack17.png" id="18_5p6yf"]
+[ext_resource type="Texture2D" uid="uid://24vjkyxp8stj" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk2.png" id="18_h84ma"]
+[ext_resource type="Texture2D" uid="uid://c36mdecs818uy" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk3.png" id="19_47wu6"]
+[ext_resource type="Texture2D" uid="uid://bj2okfy5dve58" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack18.png" id="19_sfhhg"]
+[ext_resource type="Texture2D" uid="uid://de4hyrhf81wy0" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk4.png" id="20_2n1s8"]
+[ext_resource type="Texture2D" uid="uid://bxcwpb34tnb3b" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack19.png" id="20_rgh0j"]
+[ext_resource type="Texture2D" uid="uid://cpp7ja8lfmpo6" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk5.png" id="21_3vjad"]
+[ext_resource type="Texture2D" uid="uid://hd8p6otfymad" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack20.png" id="21_lb7c1"]
+[ext_resource type="Texture2D" uid="uid://dpqt7potb5q5b" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack21.png" id="22_4hdro"]
+[ext_resource type="Texture2D" uid="uid://q5renvdqsptb" path="res://Assets/Player/Sprite Individual/Walk/BattingGirl_Walk6.png" id="22_yt0h1"]
+[ext_resource type="Texture2D" uid="uid://c46bnpvp127s2" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack22.png" id="23_4rxuh"]
+[ext_resource type="Texture2D" uid="uid://bfwruphrgeevw" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack23.png" id="24_ej0e3"]
+[ext_resource type="Texture2D" uid="uid://cj2x50u6yl4x1" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack24.png" id="25_5x45y"]
+[ext_resource type="Texture2D" uid="uid://dmlfch61bc12f" path="res://Assets/Player/Sprite Individual/ATK/Atk3(super)/BattingGirl_attack25.png" id="26_vtxrv"]
+[ext_resource type="Texture2D" uid="uid://c3d8lpr48rj38" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt1.png" id="27_wxx3u"]
+[ext_resource type="Texture2D" uid="uid://duqcrh1qu7h3q" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt2.png" id="28_bluek"]
+[ext_resource type="Texture2D" uid="uid://hn71hkfsu2g2" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt3.png" id="29_17lw4"]
+[ext_resource type="Texture2D" uid="uid://4t5sfnqlso4n" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt4.png" id="30_45q2m"]
+[ext_resource type="Texture2D" uid="uid://dvme5g14kk1wv" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt5.png" id="31_3kfh8"]
+[ext_resource type="Texture2D" uid="uid://65cp4f71eegc" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt6.png" id="32_p8xv4"]
+[ext_resource type="Texture2D" uid="uid://cungv4i228b7n" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt7.png" id="33_0qnyw"]
+[ext_resource type="Texture2D" uid="uid://jlu71s87x41c" path="res://Assets/Player/Sprite Individual/Hurt/BattingGirl_Hurt8.png" id="34_6j8o6"]
+[ext_resource type="Texture2D" uid="uid://b6bkil23rlr0s" path="res://Assets/Player/Sprite Individual/ATK/Atk1/BattingGirl_attack00.png" id="50_owy2m"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kne1u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1jgrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7wy67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_q26ax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_p01ps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_m7dl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_48og4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xmpta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1jgrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mrbh7")
+}],
+"loop": 0,
+"name": &"Atk1",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_ffn1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mft6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ctv73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1ofp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vh7e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_dbi5o")
+}],
+"loop": 0,
+"name": &"Atk2",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_ud5ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_abyjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5p6yf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_sfhhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_rgh0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_lb7c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4hdro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4rxuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ej0e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5x45y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vtxrv")
+}],
+"loop": 0,
+"name": &"Atk3",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_wxx3u")
+}],
+"loop": 0,
+"name": &"Hurt1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_bluek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_wxx3u")
+}],
+"loop": 0,
+"name": &"Hurt2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_17lw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_45q2m")
+}, {
+"duration": 3.0,
+"texture": ExtResource("31_3kfh8")
+}],
+"loop": 0,
+"name": &"Hurt3(knockdown)",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_jatw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_rv870")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_efikj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_itxgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cgsek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0pi4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_sg6sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_h84ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_47wu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2n1s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3vjad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_yt0h1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_vd78s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ictha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1jgrc")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("32_p8xv4")
+}, {
+"duration": 1.4,
+"texture": ExtResource("33_0qnyw")
+}, {
+"duration": 1.2,
+"texture": ExtResource("34_6j8o6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_owy2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ud5ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mrbh7")
+}],
+"loop": 0,
+"name": &"WakeUp",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("32_p8xv4")
+}, {
+"duration": 1.2,
+"texture": ExtResource("33_0qnyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4hdro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4rxuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ej0e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5x45y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vtxrv")
+}],
+"loop": 0,
+"name": &"WakeUpAtk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_sg6sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_h84ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_47wu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_2n1s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3vjad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_yt0h1")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 7.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x4g6e"]
+size = Vector2(5, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ffn1m"]
+size = Vector2(39.414063, 10.625)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eq8l8"]
+size = Vector2(20, 66)
+
+[node name="Player" type="CharacterBody2D" unique_id=1054361280 groups=["player"]]
+scale = Vector2(2, 2)
+script = ExtResource("1_kpjcp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1919250049]
+sprite_frames = SubResource("SpriteFrames_kne1u")
+animation = &"Atk1"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2029744120]
+visible = false
+position = Vector2(0, 40)
+shape = SubResource("RectangleShape2D_x4g6e")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=181865519]
+limit_left = 0
+limit_top = 0
+limit_right = 3136
+limit_bottom = 764
+
+[node name="HitBox" type="Area2D" parent="." unique_id=449687983]
+visible = false
+collision_layer = 0
+collision_mask = 8
+
+[node name="Punch" type="CollisionShape2D" parent="HitBox" unique_id=1720267976]
+position = Vector2(10.292969, -0.5)
+shape = SubResource("RectangleShape2D_ffn1m")
+disabled = true
+
+[node name="BaseballBet" type="CollisionPolygon2D" parent="HitBox" unique_id=1618388059]
+polygon = PackedVector2Array(0.5, 0.5, 31.5, -30.5, 42.5, -23, 49.5, -13.5, 53.5, -3, 54, 4, 53, 11.5, 47, 22.5, 39.5, 30, 28, 36.5, 15, 40)
+
+[node name="Kick" type="CollisionPolygon2D" parent="HitBox" unique_id=1082407650]
+polygon = PackedVector2Array(6, 0, 49, 0, 48, 6.5, 45, 13.5, 41, 19.5, 34.5, 25, 28, 28.5, 20.5, 30.5, 13, 31.5, 6, 31.5)
+
+[node name="HurtBox" type="Area2D" parent="." unique_id=1871787509 groups=["player", "player_hurtbox"]]
+visible = false
+collision_layer = 8
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox" unique_id=798422681]
+position = Vector2(-10, 12)
+shape = SubResource("RectangleShape2D_eq8l8")
